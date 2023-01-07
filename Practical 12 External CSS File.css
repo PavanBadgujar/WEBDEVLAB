@@ -1,0 +1,38 @@
+/* Element Selector */
+body{
+    background-color:pink;
+    }
+    p{
+    color:brown
+    }
+    /* Group Selector */
+    h1,h2{
+    font-size: 50px;
+    }
+    /* Class Selector */
+    .myclass{
+    border: 3px solid rgb(4, 26, 40);
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom:50px;
+    margin-top: 50px;
+    }
+    /* ID Selector */
+    #header{
+    color:orange
+    }
+    #footer{
+    color:rgb(238, 0, 255)
+    }
+    /* Group ID Selector */
+    #para{
+    font-size:30px;
+    }
+    /* Universal Seletor */
+    *{
+    text-align: center;
+    }
+    /* Child Selector */
+    p>i>u{
+    color:red
+    }
